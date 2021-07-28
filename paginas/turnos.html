@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../style/css/bootstrap.css">
+    <link rel="stylesheet" href="../style/css/estilo.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a53851c63d.js" crossorigin="anonymous"></script>
+
+    <title>Turnos para consulta</title>
+</head>
+<body >
+
+    <header><!--Aqui comienza mi menu-->
+        <nav class="navbar">
+            <ul class="menu flexMenu">
+                <li><a href="../index.html"> Home</a></li>
+                <li><a href="sobremi.html"> Sobre mi</a></li>
+                <li><a href="nutricion2.html"> Nutricion</a></li>
+                <li><a href="turnos.html"> Turnos</a></li>
+                <li><a href="contacto.html"> Contacto</a></li>
+            </ul>
+        </nav>
+    </header> <!--Aqui termina el menu--> 
+    <main><!--Comienza introduccion a pagina-->
+        <div>
+            <h1>Pedir un turno</h1>
+            <h3 class="ms-4 ">¿Queres empezar a modificar esos habitos y tener un mejor estado de salud? ¡Empecemos! </h3>
+        </div>
+    </main><!--Fin de introduccion a pagina-->
+    <section class="flexTurnos"><!--Comienza pasos para sacar turno-->
+        <div>
+            <h4 class="h4">Para poder sacar un turno segui estos pasos:</h4>
+        
+                <ol id="formularioTurno" class="container p-4">
+                    <li>Completa el formulario</li>
+                    <li>En la seccion "comentarios" dejame un breve descipcion tuya, como para ir conociendonos</li>
+                    <li>Recibiras un mail confirmando tu turno segun la modalidad que hayas elegido</li>
+                 <li>En caso de querer modificarlo o cancelarlo comunicarse con el numero de telefono indicado</li>
+                </ol><br>
+        </div>
+        <div>
+            <form action=""  >
+                        <label for="Nombre" > Nombre:</label>
+                        <input type="text" name="Nombre">
+                        <label for="Apellido"> Apellido:</label>
+                        <input type="text" name="Apellido">
+                        <label for="Edad"> Edad: </label>
+                        <input type="text" name="Edad"> 
+                        <label for="Correo electronico"> Correo electronico:</label>
+                        <input type="email" name="Correo electronico">
+        
+            <div class="comentarios"><!--Seccion de comentarios-->
+                <label for="Comentarios"> Comentarios:</label>
+                <textarea name="Comentarios"cols="30" rows="10" ></textarea>
+                    <div id="Terminos">
+                        Recibir informacion sobre nutricion
+                <input type="checkbox" name="acepta" value="1">
+                    </div> 
+                <input type="submit" value="Enviar">
+            <input type="reset" value="Borrar todo">
+            </div>
+        </div>
+ 
+        </form>
+        
+    </section><br><!--Fin de formulario para turnos-->
+    <footer>
+        <p class="h4">copyright© . Creado por Matias Ruiz</p>
+        <div>
+            <p><i class="fab fa-whatsapp"></i><a href="https://wa.me/543413365985"> 3413365985</a>
+            </p>
+            <p><i class="fab fa-twitter"></i><a href="https://twitter.com/MatiiasRuiz8"> Matias Ruiz</a>
+            </p>
+            <p><i class="fas fa-envelope-open-text"></i></i><a href="mailto:matiiasruiz8@gmail.com">matiiasruiz8@gmail.com</a>
+            </p>
+            <p><i class="fab fa-instagram"></i><a href="https://www.instagram.com/maatiruiz12/"> Matias Ruiz</a>
+            </p>
+            <p><i class="fab fa-instagram"></i> <i class="fas fa-university"></i>  <a href="https://www.instagram.com/lic.matiasruiz/"> Licenciado Matias Ruiz</a>
+            </p>
+        </div>
+
+    </footer>
+</body>
+</html>
